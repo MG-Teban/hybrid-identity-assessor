@@ -1,0 +1,1962 @@
+{
+  "schemaVersion": "1.0",
+  "exportedAt": "2026-06-23T12:51:59.745Z",
+  "trusts": [],
+  "anonymised": false,
+  "domainInfo": {
+    "name": "messycorp.local",
+    "forest": "messycorp.local",
+    "netBIOSName": "MESSYCORP",
+    "domainFunctionalLevel": "Windows2012R2Domain",
+    "upnSuffixes": [
+      "messycorp.com.au",
+      "messycorp.local"
+    ]
+  },
+  "users": [
+    {
+      "sAMAccountName": "stale1",
+      "userPrincipalName": "stale1@messycorp.com.au",
+      "displayName": "Stale User 1",
+      "distinguishedName": "CN=stale1,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-03-15T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale1@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale2",
+      "userPrincipalName": "stale2@messycorp.com.au",
+      "displayName": "Stale User 2",
+      "distinguishedName": "CN=stale2,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-03-05T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale2@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale3",
+      "userPrincipalName": "stale3@messycorp.com.au",
+      "displayName": "Stale User 3",
+      "distinguishedName": "CN=stale3,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-02-23T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale3@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale4",
+      "userPrincipalName": "stale4@messycorp.com.au",
+      "displayName": "Stale User 4",
+      "distinguishedName": "CN=stale4,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-02-13T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale4@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale5",
+      "userPrincipalName": "stale5@messycorp.com.au",
+      "displayName": "Stale User 5",
+      "distinguishedName": "CN=stale5,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-02-03T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale5@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale6",
+      "userPrincipalName": "stale6@messycorp.com.au",
+      "displayName": "Stale User 6",
+      "distinguishedName": "CN=stale6,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-01-24T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale6@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale7",
+      "userPrincipalName": "stale7@messycorp.com.au",
+      "displayName": "Stale User 7",
+      "distinguishedName": "CN=stale7,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-01-14T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale7@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale8",
+      "userPrincipalName": "stale8@messycorp.com.au",
+      "displayName": "Stale User 8",
+      "distinguishedName": "CN=stale8,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-01-04T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale8@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale9",
+      "userPrincipalName": "stale9@messycorp.com.au",
+      "displayName": "Stale User 9",
+      "distinguishedName": "CN=stale9,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2025-12-25T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale9@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale10",
+      "userPrincipalName": "stale10@messycorp.com.au",
+      "displayName": "Stale User 10",
+      "distinguishedName": "CN=stale10,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2025-12-15T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale10@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale11",
+      "userPrincipalName": "stale11@messycorp.com.au",
+      "displayName": "Stale User 11",
+      "distinguishedName": "CN=stale11,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2025-12-05T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale11@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale12",
+      "userPrincipalName": "stale12@messycorp.com.au",
+      "displayName": "Stale User 12",
+      "distinguishedName": "CN=stale12,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2025-11-25T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale12@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale13",
+      "userPrincipalName": "stale13@messycorp.com.au",
+      "displayName": "Stale User 13",
+      "distinguishedName": "CN=stale13,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2025-11-15T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale13@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale14",
+      "userPrincipalName": "stale14@messycorp.com.au",
+      "displayName": "Stale User 14",
+      "distinguishedName": "CN=stale14,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2025-11-05T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale14@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "stale15",
+      "userPrincipalName": "stale15@messycorp.com.au",
+      "displayName": "Stale User 15",
+      "distinguishedName": "CN=stale15,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2025-10-26T12:51:59.748Z",
+      "passwordLastSet": "2025-12-05T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:stale15@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute1",
+      "userPrincipalName": "nonroute1@messycorp.local",
+      "displayName": "NonRoutable 1",
+      "distinguishedName": "CN=nonroute1,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute1@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute2",
+      "userPrincipalName": "nonroute2@messycorp.local",
+      "displayName": "NonRoutable 2",
+      "distinguishedName": "CN=nonroute2,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute2@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute3",
+      "userPrincipalName": "nonroute3@messycorp.local",
+      "displayName": "NonRoutable 3",
+      "distinguishedName": "CN=nonroute3,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute3@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute4",
+      "userPrincipalName": "nonroute4@messycorp.local",
+      "displayName": "NonRoutable 4",
+      "distinguishedName": "CN=nonroute4,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute4@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute5",
+      "userPrincipalName": "nonroute5@messycorp.local",
+      "displayName": "NonRoutable 5",
+      "distinguishedName": "CN=nonroute5,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute5@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute6",
+      "userPrincipalName": "nonroute6@messycorp.local",
+      "displayName": "NonRoutable 6",
+      "distinguishedName": "CN=nonroute6,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute6@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute7",
+      "userPrincipalName": "nonroute7@messycorp.local",
+      "displayName": "NonRoutable 7",
+      "distinguishedName": "CN=nonroute7,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute7@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute8",
+      "userPrincipalName": "nonroute8@messycorp.local",
+      "displayName": "NonRoutable 8",
+      "distinguishedName": "CN=nonroute8,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute8@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute9",
+      "userPrincipalName": "nonroute9@messycorp.local",
+      "displayName": "NonRoutable 9",
+      "distinguishedName": "CN=nonroute9,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute9@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "nonroute10",
+      "userPrincipalName": "nonroute10@messycorp.local",
+      "displayName": "NonRoutable 10",
+      "distinguishedName": "CN=nonroute10,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:nonroute10@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-08T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "pnex1",
+      "userPrincipalName": "pnex1@messycorp.com.au",
+      "displayName": "PNE User 1",
+      "distinguishedName": "CN=pnex1,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.748Z",
+      "passwordLastSet": "2025-05-19T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-10-31T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "pnex2",
+      "userPrincipalName": "pnex2@messycorp.com.au",
+      "displayName": "PNE User 2",
+      "distinguishedName": "CN=pnex2,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.748Z",
+      "passwordLastSet": "2025-05-19T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-10-31T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "pnex3",
+      "userPrincipalName": "pnex3@messycorp.com.au",
+      "displayName": "PNE User 3",
+      "distinguishedName": "CN=pnex3,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.748Z",
+      "passwordLastSet": "2025-05-19T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-10-31T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "pnex4",
+      "userPrincipalName": "pnex4@messycorp.com.au",
+      "displayName": "PNE User 4",
+      "distinguishedName": "CN=pnex4,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.748Z",
+      "passwordLastSet": "2025-05-19T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-10-31T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "pnex5",
+      "userPrincipalName": "pnex5@messycorp.com.au",
+      "displayName": "PNE User 5",
+      "distinguishedName": "CN=pnex5,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.748Z",
+      "passwordLastSet": "2025-05-19T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-10-31T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "pnex6",
+      "userPrincipalName": "pnex6@messycorp.com.au",
+      "displayName": "PNE User 6",
+      "distinguishedName": "CN=pnex6,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.748Z",
+      "passwordLastSet": "2025-05-19T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-10-31T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "pnex7",
+      "userPrincipalName": "pnex7@messycorp.com.au",
+      "displayName": "PNE User 7",
+      "distinguishedName": "CN=pnex7,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.748Z",
+      "passwordLastSet": "2025-05-19T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-10-31T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "pnex8",
+      "userPrincipalName": "pnex8@messycorp.com.au",
+      "displayName": "PNE User 8",
+      "distinguishedName": "CN=pnex8,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.748Z",
+      "passwordLastSet": "2025-05-19T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-10-31T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "dupproxy1",
+      "userPrincipalName": "dupproxy1@messycorp.com.au",
+      "displayName": "DupProxy 1",
+      "distinguishedName": "CN=dupproxy1,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-08T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:dupproxy1@messycorp.com.au",
+        "smtp:dupproxy1@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-05-19T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "dupproxy2",
+      "userPrincipalName": "dupproxy2@messycorp.com.au",
+      "displayName": "DupProxy 2",
+      "distinguishedName": "CN=dupproxy2,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-08T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:dupproxy2@messycorp.com.au",
+        "smtp:dupproxy2@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-05-19T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "dupproxy3",
+      "userPrincipalName": "dupproxy3@messycorp.com.au",
+      "displayName": "DupProxy 3",
+      "distinguishedName": "CN=dupproxy3,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-08T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:dupproxy3@messycorp.com.au",
+        "smtp:dupproxy3@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-05-19T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "dupproxy4",
+      "userPrincipalName": "dupproxy4@messycorp.com.au",
+      "displayName": "DupProxy 4",
+      "distinguishedName": "CN=dupproxy4,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-08T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:dupproxy4@messycorp.com.au",
+        "smtp:dupproxy4@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-05-19T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "dupproxy5",
+      "userPrincipalName": "dupproxy5@messycorp.com.au",
+      "displayName": "DupProxy 5",
+      "distinguishedName": "CN=dupproxy5,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-08T12:51:59.748Z",
+      "passwordLastSet": "2026-05-24T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:dupproxy5@messycorp.com.au",
+        "smtp:dupproxy5@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-05-19T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "adm1",
+      "userPrincipalName": "adm1@messycorp.com.au",
+      "displayName": "Admin 1",
+      "mail": "adm1@messycorp.com.au",
+      "distinguishedName": "CN=adm1,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm1@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "adm2",
+      "userPrincipalName": "adm2@messycorp.com.au",
+      "displayName": "Admin 2",
+      "mail": "adm2@messycorp.com.au",
+      "distinguishedName": "CN=adm2,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm2@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "adm3",
+      "userPrincipalName": "adm3@messycorp.com.au",
+      "displayName": "Admin 3",
+      "mail": "adm3@messycorp.com.au",
+      "distinguishedName": "CN=adm3,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm3@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "adm4",
+      "userPrincipalName": "adm4@messycorp.com.au",
+      "displayName": "Admin 4",
+      "mail": "adm4@messycorp.com.au",
+      "distinguishedName": "CN=adm4,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm4@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "adm5",
+      "userPrincipalName": "adm5@messycorp.com.au",
+      "displayName": "Admin 5",
+      "mail": "adm5@messycorp.com.au",
+      "distinguishedName": "CN=adm5,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm5@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "adm6",
+      "userPrincipalName": "adm6@messycorp.com.au",
+      "displayName": "Admin 6",
+      "mail": "adm6@messycorp.com.au",
+      "distinguishedName": "CN=adm6,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm6@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "adm7",
+      "userPrincipalName": "adm7@messycorp.com.au",
+      "displayName": "Admin 7",
+      "mail": "adm7@messycorp.com.au",
+      "distinguishedName": "CN=adm7,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm7@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "adm8",
+      "userPrincipalName": "adm8@messycorp.com.au",
+      "displayName": "Admin 8",
+      "mail": "adm8@messycorp.com.au",
+      "distinguishedName": "CN=adm8,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm8@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "adm9",
+      "userPrincipalName": "adm9@messycorp.com.au",
+      "displayName": "Admin 9",
+      "mail": "adm9@messycorp.com.au",
+      "distinguishedName": "CN=adm9,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm9@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "adm10",
+      "userPrincipalName": "adm10@messycorp.com.au",
+      "displayName": "Admin 10",
+      "mail": "adm10@messycorp.com.au",
+      "distinguishedName": "CN=adm10,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.748Z",
+      "passwordLastSet": "2026-06-03T12:51:59.748Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:adm10@messycorp.com.au"
+      ],
+      "memberOf": [
+        "CN=Domain Admins,CN=Users,DC=messycorp,DC=local"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2023-09-27T12:51:59.748Z",
+      "adminCount": 1
+    },
+    {
+      "sAMAccountName": "svc_app1",
+      "userPrincipalName": "svc_app1@messycorp.local",
+      "displayName": "Service Account 1",
+      "distinguishedName": "CN=svc_app1,OU=ServiceAccounts,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-09T12:51:59.748Z",
+      "passwordLastSet": "2025-02-08T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [
+        "MSSQLSvc/sql1.messycorp.local:1433"
+      ],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "svc_app2",
+      "userPrincipalName": "svc_app2@messycorp.local",
+      "displayName": "Service Account 2",
+      "distinguishedName": "CN=svc_app2,OU=ServiceAccounts,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-09T12:51:59.748Z",
+      "passwordLastSet": "2025-02-08T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [
+        "MSSQLSvc/sql2.messycorp.local:1433"
+      ],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "svc_app3",
+      "userPrincipalName": "svc_app3@messycorp.local",
+      "displayName": "Service Account 3",
+      "distinguishedName": "CN=svc_app3,OU=ServiceAccounts,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-09T12:51:59.748Z",
+      "passwordLastSet": "2025-02-08T12:51:59.748Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [
+        "MSSQLSvc/sql3.messycorp.local:1433"
+      ],
+      "whenCreated": "2024-04-14T12:51:59.748Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "svc_app4",
+      "userPrincipalName": "svc_app4@messycorp.local",
+      "displayName": "Service Account 4",
+      "distinguishedName": "CN=svc_app4,OU=ServiceAccounts,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-09T12:51:59.749Z",
+      "passwordLastSet": "2025-02-08T12:51:59.749Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [
+        "MSSQLSvc/sql4.messycorp.local:1433"
+      ],
+      "whenCreated": "2024-04-14T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "svc_app5",
+      "userPrincipalName": "svc_app5@messycorp.local",
+      "displayName": "Service Account 5",
+      "distinguishedName": "CN=svc_app5,OU=ServiceAccounts,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-09T12:51:59.749Z",
+      "passwordLastSet": "2025-02-08T12:51:59.749Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [
+        "MSSQLSvc/sql5.messycorp.local:1433"
+      ],
+      "whenCreated": "2024-04-14T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "svc_app6",
+      "userPrincipalName": "svc_app6@messycorp.local",
+      "displayName": "Service Account 6",
+      "distinguishedName": "CN=svc_app6,OU=ServiceAccounts,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-09T12:51:59.749Z",
+      "passwordLastSet": "2025-02-08T12:51:59.749Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [
+        "MSSQLSvc/sql6.messycorp.local:1433"
+      ],
+      "whenCreated": "2024-04-14T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "svc_app7",
+      "userPrincipalName": "svc_app7@messycorp.local",
+      "displayName": "Service Account 7",
+      "distinguishedName": "CN=svc_app7,OU=ServiceAccounts,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-09T12:51:59.749Z",
+      "passwordLastSet": "2025-02-08T12:51:59.749Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [
+        "MSSQLSvc/sql7.messycorp.local:1433"
+      ],
+      "whenCreated": "2024-04-14T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "svc_app8",
+      "userPrincipalName": "svc_app8@messycorp.local",
+      "displayName": "Service Account 8",
+      "distinguishedName": "CN=svc_app8,OU=ServiceAccounts,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-09T12:51:59.749Z",
+      "passwordLastSet": "2025-02-08T12:51:59.749Z",
+      "passwordNeverExpires": true,
+      "passwordNotRequired": false,
+      "proxyAddresses": [],
+      "memberOf": [],
+      "servicePrincipalNames": [
+        "MSSQLSvc/sql8.messycorp.local:1433"
+      ],
+      "whenCreated": "2024-04-14T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal1",
+      "userPrincipalName": "normal1@messycorp.com.au",
+      "displayName": "Normal User 1",
+      "distinguishedName": "CN=normal1,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-31T12:51:59.749Z",
+      "passwordLastSet": "2026-05-28T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal1@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal2",
+      "userPrincipalName": "normal2@messycorp.com.au",
+      "displayName": "Normal User 2",
+      "distinguishedName": "CN=normal2,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "passwordLastSet": "2026-06-21T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal2@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal3",
+      "userPrincipalName": "normal3@messycorp.com.au",
+      "displayName": "Normal User 3",
+      "distinguishedName": "CN=normal3,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-21T12:51:59.749Z",
+      "passwordLastSet": "2026-06-06T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal3@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal4",
+      "userPrincipalName": "normal4@messycorp.com.au",
+      "displayName": "Normal User 4",
+      "distinguishedName": "CN=normal4,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-10T12:51:59.749Z",
+      "passwordLastSet": "2026-06-10T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal4@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal5",
+      "userPrincipalName": "normal5@messycorp.com.au",
+      "displayName": "Normal User 5",
+      "distinguishedName": "CN=normal5,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-24T12:51:59.749Z",
+      "passwordLastSet": "2026-05-10T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal5@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal6",
+      "userPrincipalName": "normal6@messycorp.com.au",
+      "displayName": "Normal User 6",
+      "distinguishedName": "CN=normal6,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-04T12:51:59.749Z",
+      "passwordLastSet": "2026-05-29T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal6@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal7",
+      "userPrincipalName": "normal7@messycorp.com.au",
+      "displayName": "Normal User 7",
+      "distinguishedName": "CN=normal7,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-09T12:51:59.749Z",
+      "passwordLastSet": "2026-06-21T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal7@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal8",
+      "userPrincipalName": "normal8@messycorp.com.au",
+      "displayName": "Normal User 8",
+      "distinguishedName": "CN=normal8,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-02T12:51:59.749Z",
+      "passwordLastSet": "2026-06-08T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal8@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal9",
+      "userPrincipalName": "normal9@messycorp.com.au",
+      "displayName": "Normal User 9",
+      "distinguishedName": "CN=normal9,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-27T12:51:59.749Z",
+      "passwordLastSet": "2026-05-06T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal9@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal10",
+      "userPrincipalName": "normal10@messycorp.com.au",
+      "displayName": "Normal User 10",
+      "distinguishedName": "CN=normal10,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-21T12:51:59.749Z",
+      "passwordLastSet": "2026-05-17T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal10@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal11",
+      "userPrincipalName": "normal11@messycorp.com.au",
+      "displayName": "Normal User 11",
+      "distinguishedName": "CN=normal11,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-10T12:51:59.749Z",
+      "passwordLastSet": "2026-04-24T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal11@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal12",
+      "userPrincipalName": "normal12@messycorp.com.au",
+      "displayName": "Normal User 12",
+      "distinguishedName": "CN=normal12,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-07T12:51:59.749Z",
+      "passwordLastSet": "2026-06-05T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal12@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal13",
+      "userPrincipalName": "normal13@messycorp.com.au",
+      "displayName": "Normal User 13",
+      "distinguishedName": "CN=normal13,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-12T12:51:59.749Z",
+      "passwordLastSet": "2026-05-23T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal13@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal14",
+      "userPrincipalName": "normal14@messycorp.com.au",
+      "displayName": "Normal User 14",
+      "distinguishedName": "CN=normal14,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-25T12:51:59.749Z",
+      "passwordLastSet": "2026-05-03T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal14@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal15",
+      "userPrincipalName": "normal15@messycorp.com.au",
+      "displayName": "Normal User 15",
+      "distinguishedName": "CN=normal15,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-22T12:51:59.749Z",
+      "passwordLastSet": "2026-04-28T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal15@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal16",
+      "userPrincipalName": "normal16@messycorp.com.au",
+      "displayName": "Normal User 16",
+      "distinguishedName": "CN=normal16,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.749Z",
+      "passwordLastSet": "2026-06-19T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal16@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal17",
+      "userPrincipalName": "normal17@messycorp.com.au",
+      "displayName": "Normal User 17",
+      "distinguishedName": "CN=normal17,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-15T12:51:59.749Z",
+      "passwordLastSet": "2026-05-10T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal17@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal18",
+      "userPrincipalName": "normal18@messycorp.com.au",
+      "displayName": "Normal User 18",
+      "distinguishedName": "CN=normal18,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-08T12:51:59.749Z",
+      "passwordLastSet": "2026-05-09T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal18@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal19",
+      "userPrincipalName": "normal19@messycorp.com.au",
+      "displayName": "Normal User 19",
+      "distinguishedName": "CN=normal19,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-28T12:51:59.749Z",
+      "passwordLastSet": "2026-06-09T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal19@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal20",
+      "userPrincipalName": "normal20@messycorp.com.au",
+      "displayName": "Normal User 20",
+      "distinguishedName": "CN=normal20,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-17T12:51:59.749Z",
+      "passwordLastSet": "2026-06-11T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal20@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal21",
+      "userPrincipalName": "normal21@messycorp.com.au",
+      "displayName": "Normal User 21",
+      "distinguishedName": "CN=normal21,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "passwordLastSet": "2026-04-25T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal21@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal22",
+      "userPrincipalName": "normal22@messycorp.com.au",
+      "displayName": "Normal User 22",
+      "distinguishedName": "CN=normal22,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-06T12:51:59.749Z",
+      "passwordLastSet": "2026-05-18T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal22@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal23",
+      "userPrincipalName": "normal23@messycorp.com.au",
+      "displayName": "Normal User 23",
+      "distinguishedName": "CN=normal23,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-05-30T12:51:59.749Z",
+      "passwordLastSet": "2026-05-29T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal23@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "normal24",
+      "userPrincipalName": "normal24@messycorp.com.au",
+      "displayName": "Normal User 24",
+      "distinguishedName": "CN=normal24,OU=Staff,DC=messycorp,DC=local",
+      "enabled": true,
+      "lastLogonDate": "2026-06-16T12:51:59.749Z",
+      "passwordLastSet": "2026-06-03T12:51:59.749Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:normal24@messycorp.com.au"
+      ],
+      "memberOf": [],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.749Z",
+      "adminCount": null
+    }
+  ],
+  "groups": [
+    {
+      "name": "Domain Admins",
+      "sAMAccountName": "Domain Admins",
+      "distinguishedName": "CN=Domain Admins,CN=Users,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [
+        "CN=adm1,OU=Staff,DC=messycorp,DC=local",
+        "CN=adm2,OU=Staff,DC=messycorp,DC=local",
+        "CN=adm3,OU=Staff,DC=messycorp,DC=local",
+        "CN=adm4,OU=Staff,DC=messycorp,DC=local",
+        "CN=adm5,OU=Staff,DC=messycorp,DC=local",
+        "CN=adm6,OU=Staff,DC=messycorp,DC=local",
+        "CN=adm7,OU=Staff,DC=messycorp,DC=local",
+        "CN=adm8,OU=Staff,DC=messycorp,DC=local",
+        "CN=adm9,OU=Staff,DC=messycorp,DC=local",
+        "CN=adm10,OU=Staff,DC=messycorp,DC=local"
+      ],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-1",
+      "sAMAccountName": "Legacy-Group-1",
+      "distinguishedName": "CN=Legacy-Group-1,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-2",
+      "sAMAccountName": "Legacy-Group-2",
+      "distinguishedName": "CN=Legacy-Group-2,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-3",
+      "sAMAccountName": "Legacy-Group-3",
+      "distinguishedName": "CN=Legacy-Group-3,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-4",
+      "sAMAccountName": "Legacy-Group-4",
+      "distinguishedName": "CN=Legacy-Group-4,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-5",
+      "sAMAccountName": "Legacy-Group-5",
+      "distinguishedName": "CN=Legacy-Group-5,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-6",
+      "sAMAccountName": "Legacy-Group-6",
+      "distinguishedName": "CN=Legacy-Group-6,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-7",
+      "sAMAccountName": "Legacy-Group-7",
+      "distinguishedName": "CN=Legacy-Group-7,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-8",
+      "sAMAccountName": "Legacy-Group-8",
+      "distinguishedName": "CN=Legacy-Group-8,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-9",
+      "sAMAccountName": "Legacy-Group-9",
+      "distinguishedName": "CN=Legacy-Group-9,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-10",
+      "sAMAccountName": "Legacy-Group-10",
+      "distinguishedName": "CN=Legacy-Group-10,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-11",
+      "sAMAccountName": "Legacy-Group-11",
+      "distinguishedName": "CN=Legacy-Group-11,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Legacy-Group-12",
+      "sAMAccountName": "Legacy-Group-12",
+      "distinguishedName": "CN=Legacy-Group-12,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [],
+      "memberOf": []
+    },
+    {
+      "name": "Access-User-1",
+      "sAMAccountName": "Access-User-1",
+      "distinguishedName": "CN=Access-User-1,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [
+        "CN=normal1,OU=Staff,DC=messycorp,DC=local"
+      ],
+      "memberOf": []
+    },
+    {
+      "name": "Access-User-2",
+      "sAMAccountName": "Access-User-2",
+      "distinguishedName": "CN=Access-User-2,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [
+        "CN=normal2,OU=Staff,DC=messycorp,DC=local"
+      ],
+      "memberOf": []
+    },
+    {
+      "name": "Access-User-3",
+      "sAMAccountName": "Access-User-3",
+      "distinguishedName": "CN=Access-User-3,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [
+        "CN=normal3,OU=Staff,DC=messycorp,DC=local"
+      ],
+      "memberOf": []
+    },
+    {
+      "name": "Access-User-4",
+      "sAMAccountName": "Access-User-4",
+      "distinguishedName": "CN=Access-User-4,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [
+        "CN=normal4,OU=Staff,DC=messycorp,DC=local"
+      ],
+      "memberOf": []
+    },
+    {
+      "name": "Access-User-5",
+      "sAMAccountName": "Access-User-5",
+      "distinguishedName": "CN=Access-User-5,OU=Groups,DC=messycorp,DC=local",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [
+        "CN=normal5,OU=Staff,DC=messycorp,DC=local"
+      ],
+      "memberOf": []
+    }
+  ],
+  "computers": [
+    {
+      "name": "MSY-WS-EOL-1",
+      "sAMAccountName": "MSY-WS-EOL-1$",
+      "distinguishedName": "CN=MSY-WS-EOL-1,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-eol-1.messycorp.local",
+      "operatingSystem": "Windows 7 Enterprise",
+      "operatingSystemVersion": "6.1 (7601)",
+      "enabled": true,
+      "lastLogonDate": "2026-05-24T12:51:59.749Z",
+      "whenCreated": "2020-12-31T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-EOL-2",
+      "sAMAccountName": "MSY-WS-EOL-2$",
+      "distinguishedName": "CN=MSY-WS-EOL-2,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-eol-2.messycorp.local",
+      "operatingSystem": "Windows 7 Enterprise",
+      "operatingSystemVersion": "6.1 (7601)",
+      "enabled": true,
+      "lastLogonDate": "2026-05-24T12:51:59.749Z",
+      "whenCreated": "2020-12-31T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-EOL-3",
+      "sAMAccountName": "MSY-WS-EOL-3$",
+      "distinguishedName": "CN=MSY-WS-EOL-3,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-eol-3.messycorp.local",
+      "operatingSystem": "Windows 7 Enterprise",
+      "operatingSystemVersion": "6.1 (7601)",
+      "enabled": true,
+      "lastLogonDate": "2026-05-24T12:51:59.749Z",
+      "whenCreated": "2020-12-31T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-EOL-4",
+      "sAMAccountName": "MSY-WS-EOL-4$",
+      "distinguishedName": "CN=MSY-WS-EOL-4,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-eol-4.messycorp.local",
+      "operatingSystem": "Windows 7 Enterprise",
+      "operatingSystemVersion": "6.1 (7601)",
+      "enabled": true,
+      "lastLogonDate": "2026-05-24T12:51:59.749Z",
+      "whenCreated": "2020-12-31T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-EOL-5",
+      "sAMAccountName": "MSY-WS-EOL-5$",
+      "distinguishedName": "CN=MSY-WS-EOL-5,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-eol-5.messycorp.local",
+      "operatingSystem": "Windows 7 Enterprise",
+      "operatingSystemVersion": "6.1 (7601)",
+      "enabled": true,
+      "lastLogonDate": "2026-05-24T12:51:59.749Z",
+      "whenCreated": "2020-12-31T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-STL-1",
+      "sAMAccountName": "MSY-WS-STL-1$",
+      "distinguishedName": "CN=MSY-WS-STL-1,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-stl-1.messycorp.local",
+      "operatingSystem": "Windows 10 Enterprise",
+      "operatingSystemVersion": "10.0 (19045)",
+      "enabled": true,
+      "lastLogonDate": "2026-01-24T12:51:59.749Z",
+      "whenCreated": "2024-04-14T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-STL-2",
+      "sAMAccountName": "MSY-WS-STL-2$",
+      "distinguishedName": "CN=MSY-WS-STL-2,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-stl-2.messycorp.local",
+      "operatingSystem": "Windows 10 Enterprise",
+      "operatingSystemVersion": "10.0 (19045)",
+      "enabled": true,
+      "lastLogonDate": "2026-01-24T12:51:59.749Z",
+      "whenCreated": "2024-04-14T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-STL-3",
+      "sAMAccountName": "MSY-WS-STL-3$",
+      "distinguishedName": "CN=MSY-WS-STL-3,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-stl-3.messycorp.local",
+      "operatingSystem": "Windows 10 Enterprise",
+      "operatingSystemVersion": "10.0 (19045)",
+      "enabled": true,
+      "lastLogonDate": "2026-01-24T12:51:59.749Z",
+      "whenCreated": "2024-04-14T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-STL-4",
+      "sAMAccountName": "MSY-WS-STL-4$",
+      "distinguishedName": "CN=MSY-WS-STL-4,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-stl-4.messycorp.local",
+      "operatingSystem": "Windows 10 Enterprise",
+      "operatingSystemVersion": "10.0 (19045)",
+      "enabled": true,
+      "lastLogonDate": "2026-01-24T12:51:59.749Z",
+      "whenCreated": "2024-04-14T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-STL-5",
+      "sAMAccountName": "MSY-WS-STL-5$",
+      "distinguishedName": "CN=MSY-WS-STL-5,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-stl-5.messycorp.local",
+      "operatingSystem": "Windows 10 Enterprise",
+      "operatingSystemVersion": "10.0 (19045)",
+      "enabled": true,
+      "lastLogonDate": "2026-01-24T12:51:59.749Z",
+      "whenCreated": "2024-04-14T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-STL-6",
+      "sAMAccountName": "MSY-WS-STL-6$",
+      "distinguishedName": "CN=MSY-WS-STL-6,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-stl-6.messycorp.local",
+      "operatingSystem": "Windows 10 Enterprise",
+      "operatingSystemVersion": "10.0 (19045)",
+      "enabled": true,
+      "lastLogonDate": "2026-01-24T12:51:59.749Z",
+      "whenCreated": "2024-04-14T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-STL-7",
+      "sAMAccountName": "MSY-WS-STL-7$",
+      "distinguishedName": "CN=MSY-WS-STL-7,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-stl-7.messycorp.local",
+      "operatingSystem": "Windows 10 Enterprise",
+      "operatingSystemVersion": "10.0 (19045)",
+      "enabled": true,
+      "lastLogonDate": "2026-01-24T12:51:59.749Z",
+      "whenCreated": "2024-04-14T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-STL-8",
+      "sAMAccountName": "MSY-WS-STL-8$",
+      "distinguishedName": "CN=MSY-WS-STL-8,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-stl-8.messycorp.local",
+      "operatingSystem": "Windows 10 Enterprise",
+      "operatingSystemVersion": "10.0 (19045)",
+      "enabled": true,
+      "lastLogonDate": "2026-01-24T12:51:59.749Z",
+      "whenCreated": "2024-04-14T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-1",
+      "sAMAccountName": "MSY-WS-OK-1$",
+      "distinguishedName": "CN=MSY-WS-OK-1,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-1.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-2",
+      "sAMAccountName": "MSY-WS-OK-2$",
+      "distinguishedName": "CN=MSY-WS-OK-2,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-2.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-3",
+      "sAMAccountName": "MSY-WS-OK-3$",
+      "distinguishedName": "CN=MSY-WS-OK-3,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-3.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-4",
+      "sAMAccountName": "MSY-WS-OK-4$",
+      "distinguishedName": "CN=MSY-WS-OK-4,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-4.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-5",
+      "sAMAccountName": "MSY-WS-OK-5$",
+      "distinguishedName": "CN=MSY-WS-OK-5,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-5.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-6",
+      "sAMAccountName": "MSY-WS-OK-6$",
+      "distinguishedName": "CN=MSY-WS-OK-6,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-6.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-7",
+      "sAMAccountName": "MSY-WS-OK-7$",
+      "distinguishedName": "CN=MSY-WS-OK-7,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-7.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-8",
+      "sAMAccountName": "MSY-WS-OK-8$",
+      "distinguishedName": "CN=MSY-WS-OK-8,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-8.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-9",
+      "sAMAccountName": "MSY-WS-OK-9$",
+      "distinguishedName": "CN=MSY-WS-OK-9,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-9.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    },
+    {
+      "name": "MSY-WS-OK-10",
+      "sAMAccountName": "MSY-WS-OK-10$",
+      "distinguishedName": "CN=MSY-WS-OK-10,OU=Workstations,DC=messycorp,DC=local",
+      "dnsHostName": "msy-ws-ok-10.messycorp.local",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-13T12:51:59.749Z",
+      "whenCreated": "2025-12-05T12:51:59.749Z"
+    }
+  ],
+  "ous": [
+    {
+      "name": "Staff",
+      "distinguishedName": "OU=Staff,DC=messycorp,DC=local",
+      "gpLinks": []
+    },
+    {
+      "name": "Groups",
+      "distinguishedName": "OU=Groups,DC=messycorp,DC=local",
+      "gpLinks": []
+    },
+    {
+      "name": "Workstations",
+      "distinguishedName": "OU=Workstations,DC=messycorp,DC=local",
+      "gpLinks": []
+    },
+    {
+      "name": "ServiceAccounts",
+      "distinguishedName": "OU=ServiceAccounts,DC=messycorp,DC=local",
+      "gpLinks": []
+    }
+  ],
+  "gpos": [
+    {
+      "displayName": "Default Domain Policy",
+      "gpoStatus": "AllSettingsEnabled",
+      "linkedOUs": [
+        "DC=messycorp,DC=local"
+      ]
+    },
+    {
+      "displayName": "Internet Explorer Lockdown",
+      "gpoStatus": "AllSettingsDisabled",
+      "linkedOUs": []
+    }
+  ],
+  "passwordPolicy": {
+    "minPasswordLength": 6,
+    "maxPasswordAge": "42.00:00:00",
+    "minPasswordAge": "0.00:00:00",
+    "passwordHistoryCount": 5,
+    "lockoutThreshold": 0,
+    "complexityEnabled": false,
+    "reversibleEncryptionEnabled": false
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "schemaVersion": "1.0",
+  "exportedAt": "2026-06-23T12:51:59.745Z",
+  "trusts": [],
+  "anonymised": false,
+  "domainInfo": {
+    "name": "healthy.com.au",
+    "forest": "healthy.com.au",
+    "netBIOSName": "HEALTHY",
+    "domainFunctionalLevel": "Windows2016Domain",
+    "upnSuffixes": [
+      "healthy.com.au"
+    ]
+  },
+  "users": [
+    {
+      "sAMAccountName": "user1",
+      "userPrincipalName": "user1@healthy.com.au",
+      "displayName": "User 1",
+      "distinguishedName": "CN=user1,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-19T12:51:59.746Z",
+      "passwordLastSet": "2026-06-06T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user1@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-23T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user2",
+      "userPrincipalName": "user2@healthy.com.au",
+      "displayName": "User 2",
+      "distinguishedName": "CN=user2,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-06-04T12:51:59.746Z",
+      "passwordLastSet": "2026-06-04T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user2@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-13T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user3",
+      "userPrincipalName": "user3@healthy.com.au",
+      "displayName": "User 3",
+      "distinguishedName": "CN=user3,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-04-30T12:51:59.746Z",
+      "passwordLastSet": "2026-05-29T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user3@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-06-03T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user4",
+      "userPrincipalName": "user4@healthy.com.au",
+      "displayName": "User 4",
+      "distinguishedName": "CN=user4,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-14T12:51:59.746Z",
+      "passwordLastSet": "2026-05-02T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user4@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-05-24T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user5",
+      "userPrincipalName": "user5@healthy.com.au",
+      "displayName": "User 5",
+      "distinguishedName": "CN=user5,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-06-07T12:51:59.746Z",
+      "passwordLastSet": "2026-05-30T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user5@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-05-14T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user6",
+      "userPrincipalName": "user6@healthy.com.au",
+      "displayName": "User 6",
+      "distinguishedName": "CN=user6,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-29T12:51:59.746Z",
+      "passwordLastSet": "2026-05-17T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user6@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-05-04T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user7",
+      "userPrincipalName": "user7@healthy.com.au",
+      "displayName": "User 7",
+      "distinguishedName": "CN=user7,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-15T12:51:59.746Z",
+      "passwordLastSet": "2026-04-27T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user7@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-04-24T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user8",
+      "userPrincipalName": "user8@healthy.com.au",
+      "displayName": "User 8",
+      "distinguishedName": "CN=user8,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-14T12:51:59.746Z",
+      "passwordLastSet": "2026-05-24T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user8@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-04-14T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user9",
+      "userPrincipalName": "user9@healthy.com.au",
+      "displayName": "User 9",
+      "distinguishedName": "CN=user9,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-24T12:51:59.746Z",
+      "passwordLastSet": "2026-05-13T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user9@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-04-04T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user10",
+      "userPrincipalName": "user10@healthy.com.au",
+      "displayName": "User 10",
+      "distinguishedName": "CN=user10,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-28T12:51:59.746Z",
+      "passwordLastSet": "2026-04-26T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user10@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-03-25T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user11",
+      "userPrincipalName": "user11@healthy.com.au",
+      "displayName": "User 11",
+      "distinguishedName": "CN=user11,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-04-24T12:51:59.746Z",
+      "passwordLastSet": "2026-05-07T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user11@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-03-15T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user12",
+      "userPrincipalName": "user12@healthy.com.au",
+      "displayName": "User 12",
+      "distinguishedName": "CN=user12,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-04-25T12:51:59.746Z",
+      "passwordLastSet": "2026-06-17T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user12@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-03-05T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user13",
+      "userPrincipalName": "user13@healthy.com.au",
+      "displayName": "User 13",
+      "distinguishedName": "CN=user13,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-15T12:51:59.746Z",
+      "passwordLastSet": "2026-06-20T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user13@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-23T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user14",
+      "userPrincipalName": "user14@healthy.com.au",
+      "displayName": "User 14",
+      "distinguishedName": "CN=user14,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-24T12:51:59.746Z",
+      "passwordLastSet": "2026-05-14T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user14@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-13T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user15",
+      "userPrincipalName": "user15@healthy.com.au",
+      "displayName": "User 15",
+      "distinguishedName": "CN=user15,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-17T12:51:59.746Z",
+      "passwordLastSet": "2026-05-18T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user15@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-02-03T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user16",
+      "userPrincipalName": "user16@healthy.com.au",
+      "displayName": "User 16",
+      "distinguishedName": "CN=user16,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.746Z",
+      "passwordLastSet": "2026-06-15T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user16@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-01-24T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user17",
+      "userPrincipalName": "user17@healthy.com.au",
+      "displayName": "User 17",
+      "distinguishedName": "CN=user17,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-06-01T12:51:59.746Z",
+      "passwordLastSet": "2026-04-24T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user17@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-01-14T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user18",
+      "userPrincipalName": "user18@healthy.com.au",
+      "displayName": "User 18",
+      "distinguishedName": "CN=user18,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-10T12:51:59.746Z",
+      "passwordLastSet": "2026-05-31T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user18@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2025-01-04T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user19",
+      "userPrincipalName": "user19@healthy.com.au",
+      "displayName": "User 19",
+      "distinguishedName": "CN=user19,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-06-01T12:51:59.746Z",
+      "passwordLastSet": "2026-05-04T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user19@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-12-25T12:51:59.746Z",
+      "adminCount": null
+    },
+    {
+      "sAMAccountName": "user20",
+      "userPrincipalName": "user20@healthy.com.au",
+      "displayName": "User 20",
+      "distinguishedName": "CN=user20,OU=Staff,DC=healthy,DC=com,DC=au",
+      "enabled": true,
+      "lastLogonDate": "2026-05-06T12:51:59.746Z",
+      "passwordLastSet": "2026-05-12T12:51:59.746Z",
+      "passwordNeverExpires": false,
+      "passwordNotRequired": false,
+      "proxyAddresses": [
+        "SMTP:user20@healthy.com.au"
+      ],
+      "memberOf": [
+        "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au"
+      ],
+      "servicePrincipalNames": [],
+      "whenCreated": "2024-12-15T12:51:59.746Z",
+      "adminCount": null
+    }
+  ],
+  "groups": [
+    {
+      "name": "All-Staff",
+      "sAMAccountName": "All-Staff",
+      "distinguishedName": "CN=All-Staff,OU=Groups,DC=healthy,DC=com,DC=au",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [
+        "CN=user1,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user2,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user3,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user4,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user5,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user6,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user7,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user8,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user9,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user10,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user11,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user12,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user13,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user14,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user15,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user16,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user17,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user18,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user19,OU=Staff,DC=healthy,DC=com,DC=au",
+        "CN=user20,OU=Staff,DC=healthy,DC=com,DC=au"
+      ],
+      "memberOf": []
+    },
+    {
+      "name": "Domain Admins",
+      "sAMAccountName": "Domain Admins",
+      "distinguishedName": "CN=Domain Admins,CN=Users,DC=healthy,DC=com,DC=au",
+      "groupScope": "Global",
+      "groupCategory": "Security",
+      "members": [
+        "CN=user1,OU=Staff,DC=healthy,DC=com,DC=au"
+      ],
+      "memberOf": []
+    }
+  ],
+  "computers": [
+    {
+      "name": "HLT-WS-001",
+      "sAMAccountName": "HLT-WS-001$",
+      "distinguishedName": "CN=HLT-WS-001,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-001.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-07T12:51:59.746Z",
+      "whenCreated": "2025-12-05T12:51:59.746Z"
+    },
+    {
+      "name": "HLT-WS-002",
+      "sAMAccountName": "HLT-WS-002$",
+      "distinguishedName": "CN=HLT-WS-002,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-002.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-05-25T12:51:59.746Z",
+      "whenCreated": "2025-11-30T12:51:59.746Z"
+    },
+    {
+      "name": "HLT-WS-003",
+      "sAMAccountName": "HLT-WS-003$",
+      "distinguishedName": "CN=HLT-WS-003,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-003.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-21T12:51:59.746Z",
+      "whenCreated": "2025-11-25T12:51:59.746Z"
+    },
+    {
+      "name": "HLT-WS-004",
+      "sAMAccountName": "HLT-WS-004$",
+      "distinguishedName": "CN=HLT-WS-004,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-004.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-05-30T12:51:59.746Z",
+      "whenCreated": "2025-11-20T12:51:59.746Z"
+    },
+    {
+      "name": "HLT-WS-005",
+      "sAMAccountName": "HLT-WS-005$",
+      "distinguishedName": "CN=HLT-WS-005,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-005.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-21T12:51:59.746Z",
+      "whenCreated": "2025-11-15T12:51:59.746Z"
+    },
+    {
+      "name": "HLT-WS-006",
+      "sAMAccountName": "HLT-WS-006$",
+      "distinguishedName": "CN=HLT-WS-006,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-006.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-18T12:51:59.746Z",
+      "whenCreated": "2025-11-10T12:51:59.746Z"
+    },
+    {
+      "name": "HLT-WS-007",
+      "sAMAccountName": "HLT-WS-007$",
+      "distinguishedName": "CN=HLT-WS-007,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-007.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-05-28T12:51:59.746Z",
+      "whenCreated": "2025-11-05T12:51:59.746Z"
+    },
+    {
+      "name": "HLT-WS-008",
+      "sAMAccountName": "HLT-WS-008$",
+      "distinguishedName": "CN=HLT-WS-008,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-008.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-21T12:51:59.746Z",
+      "whenCreated": "2025-10-31T12:51:59.746Z"
+    },
+    {
+      "name": "HLT-WS-009",
+      "sAMAccountName": "HLT-WS-009$",
+      "distinguishedName": "CN=HLT-WS-009,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-009.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-05-25T12:51:59.746Z",
+      "whenCreated": "2025-10-26T12:51:59.746Z"
+    },
+    {
+      "name": "HLT-WS-010",
+      "sAMAccountName": "HLT-WS-010$",
+      "distinguishedName": "CN=HLT-WS-010,OU=Workstations,DC=healthy,DC=com,DC=au",
+      "dnsHostName": "hlt-ws-010.healthy.com.au",
+      "operatingSystem": "Windows 11 Enterprise",
+      "operatingSystemVersion": "10.0 (26100)",
+      "enabled": true,
+      "lastLogonDate": "2026-06-09T12:51:59.746Z",
+      "whenCreated": "2025-10-21T12:51:59.746Z"
+    }
+  ],
+  "ous": [
+    {
+      "name": "Staff",
+      "distinguishedName": "OU=Staff,DC=healthy,DC=com,DC=au",
+      "gpLinks": []
+    },
+    {
+      "name": "Groups",
+      "distinguishedName": "OU=Groups,DC=healthy,DC=com,DC=au",
+      "gpLinks": []
+    },
+    {
+      "name": "Workstations",
+      "distinguishedName": "OU=Workstations,DC=healthy,DC=com,DC=au",
+      "gpLinks": []
+    }
+  ],
+  "gpos": [
+    {
+      "displayName": "Default Domain Policy",
+      "id": "31b2f340-016d-11d2-945f-00c04fb984f9",
+      "gpoStatus": "AllSettingsEnabled",
+      "linkedOUs": [
+        "DC=healthy,DC=com,DC=au"
+      ]
+    }
+  ],
+  "passwordPolicy": {
+    "minPasswordLength": 14,
+    "maxPasswordAge": "60.00:00:00",
+    "minPasswordAge": "1.00:00:00",
+    "passwordHistoryCount": 24,
+    "lockoutThreshold": 5,
+    "lockoutDuration": "00:30:00",
+    "complexityEnabled": true,
+    "reversibleEncryptionEnabled": false
+  }
+}
