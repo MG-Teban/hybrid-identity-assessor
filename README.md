@@ -3,7 +3,7 @@
 > **Cut assessment time from ~3 consultant-days to under 1 hour.**  
 > Upload an Active Directory export, get a scored readiness report, a phased wave plan, and actionable remediation steps — all without touching your production environment.
 
-**[Live Demo →](https://migrate-ready.vercel.app)**  &nbsp;|&nbsp;  **[PowerShell Collector →](./collector/Get-ADAssessmentData.ps1)**
+**[Live Demo →](https://hybrid-identity-assessor.vercel.app)**  &nbsp;|&nbsp;  **[PowerShell Collector →](./collector/Get-ADAssessmentData.ps1)**
 
 ---
 
