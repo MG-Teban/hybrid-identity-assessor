@@ -7,10 +7,14 @@ import { normalise } from '@/domain/parser/normaliser'
 import { runAllChecks } from '@/domain/checks/registry'
 import { computeReadinessScore } from '@/domain/checks/scoring'
 import { planWaves, reassignMember } from '@/domain/waves/planner'
+import { generateHTMLReport } from '@/domain/report/html-report'
+import { generateMarkdownReport } from '@/domain/report/md-report'
+import { computeDiff } from '@/domain/report/diff'
 import type { CheckResult } from '@/domain/checks/types'
 import type { ReadinessScore } from '@/domain/checks/scoring'
 import type { WavePlan, WaveMember } from '@/domain/waves/types'
 import type { NormalisedExport } from '@/domain/parser/normalised-types'
+import type { DiffReport } from '@/domain/report/diff'
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -22,7 +26,7 @@ interface AssessmentState {
   orgName: string
 }
 
-type Tab = 'upload' | 'findings' | 'waves'
+type Tab = 'upload' | 'findings' | 'waves' | 'compare'
 
 // ─── Score Gauge ──────────────────────────────────────────────────────────────
 
@@ -167,11 +171,41 @@ const SEVERITY_COLORS = {
   low: 'bg-slate-100 text-slate-600 border-slate-200',
 }
 
+function downloadBlob(content: string, filename: string, mime: string) {
+  const blob = new Blob([content], { type: mime })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url; a.download = filename; a.click()
+  URL.revokeObjectURL(url)
+}
+
 function FindingsTab({ state }: { state: AssessmentState }) {
   const [catFilter, setCatFilter] = useState('all')
   const [sevFilter, setSevFilter] = useState('all')
   const [expanded, setExpanded] = useState<string | null>(null)
   const [showPassed, setShowPassed] = useState(false)
+
+  function exportHtml() {
+    const html = generateHTMLReport({
+      orgName: state.orgName,
+      score: state.score,
+      results: state.results,
+      wavePlan: state.wavePlan,
+      normalised: state.normalised,
+    })
+    downloadBlob(html, `migrateready-${state.orgName.toLowerCase().replace(/\s+/g, '-')}.html`, 'text/html')
+  }
+
+  function exportMd() {
+    const md = generateMarkdownReport({
+      orgName: state.orgName,
+      score: state.score,
+      results: state.results,
+      wavePlan: state.wavePlan,
+      normalised: state.normalised,
+    })
+    downloadBlob(md, `migrateready-${state.orgName.toLowerCase().replace(/\s+/g, '-')}.md`, 'text/markdown')
+  }
 
   const categories = [...new Set(state.results.map(r => r.category))]
   const filtered = state.results
@@ -240,6 +274,14 @@ function FindingsTab({ state }: { state: AssessmentState }) {
           Show passed
         </label>
         <span className="ml-auto text-xs text-slate-400">{filtered.length} result{filtered.length !== 1 ? 's' : ''}</span>
+        <div className="flex gap-2">
+          <button onClick={exportHtml} className="text-xs border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 px-3 py-1.5 rounded-lg font-medium transition-colors">
+            Export HTML
+          </button>
+          <button onClick={exportMd} className="text-xs border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 px-3 py-1.5 rounded-lg font-medium transition-colors">
+            Export MD
+          </button>
+        </div>
       </div>
 
       {/* Findings list */}
@@ -466,6 +508,136 @@ function WaveBoard({ state }: { state: AssessmentState }) {
   )
 }
 
+// ─── Compare Tab ─────────────────────────────────────────────────────────────
+
+const STATUS_STYLES: Record<string, string> = {
+  resolved:  'bg-green-50 text-green-700 border-green-200',
+  improved:  'bg-blue-50 text-blue-600 border-blue-200',
+  worsened:  'bg-orange-50 text-orange-700 border-orange-200',
+  regressed: 'bg-red-50 text-red-700 border-red-200',
+  new:       'bg-purple-50 text-purple-700 border-purple-200',
+  unchanged: 'bg-slate-50 text-slate-500 border-slate-200',
+}
+
+const STATUS_ICON: Record<string, string> = {
+  resolved: '✅', improved: '↓', worsened: '↑', regressed: '🔴', new: '★', unchanged: '=',
+}
+
+function CompareTab({ baseline }: { baseline: AssessmentState }) {
+  const [current, setCurrent] = useState<AssessmentState | null>(null)
+  const [diff, setDiff] = useState<DiffReport | null>(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+
+  async function handleFile(file: File) {
+    setLoading(true); setError(null)
+    try {
+      const json = await file.text()
+      const raw = JSON.parse(json)
+      const parsed = parseADExport(raw)
+      if (!parsed.success) { setError('Parse failed'); setLoading(false); return }
+      const normalised = normalise(parsed.data)
+      const results = runAllChecks({ normalised })
+      const score = computeReadinessScore(results)
+      const wavePlan = planWaves(normalised)
+      const newState: AssessmentState = { normalised, results, score, wavePlan, orgName: file.name.replace('.json','') }
+      setCurrent(newState)
+      setDiff(computeDiff(baseline.results, results))
+    } catch (e) { setError(e instanceof Error ? e.message : 'Invalid file') }
+    setLoading(false)
+  }
+
+  if (!current || !diff) {
+    return (
+      <div className="max-w-xl mx-auto py-10 space-y-6">
+        <div className="text-center space-y-2">
+          <h2 className="text-xl font-bold text-slate-800">Compare with another export</h2>
+          <p className="text-slate-500 text-sm">Load a second AD export to see what changed — which findings improved, worsened, or resolved.</p>
+        </div>
+        <div
+          onClick={() => inputRef.current?.click()}
+          className="border-2 border-dashed border-slate-200 hover:border-blue-300 rounded-xl p-10 flex flex-col items-center gap-3 cursor-pointer hover:bg-slate-50 transition-colors"
+        >
+          <div className="text-3xl">📂</div>
+          <p className="text-slate-700 font-medium">Drop second export here</p>
+          <p className="text-slate-400 text-sm">Current baseline: <strong>{baseline.orgName}</strong> (score {baseline.score.score})</p>
+          <input ref={inputRef} type="file" accept=".json" className="hidden" onChange={e => { const f = e.target.files?.[0]; if (f) handleFile(f) }} />
+        </div>
+        {loading && <p className="text-center text-slate-500 text-sm">Analysing…</p>}
+        {error && <p className="text-center text-red-600 text-sm">{error}</p>}
+      </div>
+    )
+  }
+
+  const scoreDelta = current.score.score - baseline.score.score
+  const scoreDeltaColor = scoreDelta > 0 ? 'text-green-600' : scoreDelta < 0 ? 'text-red-600' : 'text-slate-500'
+
+  return (
+    <div className="space-y-5 py-4">
+      {/* Score comparison bar */}
+      <div className="bg-white border border-slate-200 rounded-xl p-6 flex flex-col sm:flex-row gap-6 items-center">
+        <div className="flex-1 text-center">
+          <div className="text-xs text-slate-400 uppercase tracking-wide mb-1">Baseline — {baseline.orgName}</div>
+          <div className="text-4xl font-bold text-slate-700">{baseline.score.score}</div>
+          <div className="text-sm text-slate-400">{baseline.score.band}</div>
+        </div>
+        <div className="text-center px-6">
+          <div className={`text-3xl font-bold ${scoreDeltaColor}`}>{scoreDelta > 0 ? '+' : ''}{scoreDelta}</div>
+          <div className="text-xs text-slate-400 mt-1">score change</div>
+        </div>
+        <div className="flex-1 text-center">
+          <div className="text-xs text-slate-400 uppercase tracking-wide mb-1">Current — {current.orgName}</div>
+          <div className="text-4xl font-bold text-slate-700">{current.score.score}</div>
+          <div className="text-sm text-slate-400">{current.score.band}</div>
+        </div>
+      </div>
+
+      {/* Summary chips */}
+      <div className="flex flex-wrap gap-2">
+        {[
+          { label: 'Resolved', count: diff.resolved, cls: 'bg-green-50 text-green-700 border-green-200' },
+          { label: 'Improved', count: diff.improved, cls: 'bg-blue-50 text-blue-700 border-blue-200' },
+          { label: 'Worsened', count: diff.worsened, cls: 'bg-orange-50 text-orange-700 border-orange-200' },
+          { label: 'Regressed', count: diff.regressed, cls: 'bg-red-50 text-red-700 border-red-200' },
+          { label: 'Unchanged', count: diff.unchanged, cls: 'bg-slate-50 text-slate-500 border-slate-200' },
+        ].map(({ label, count, cls }) => (
+          <span key={label} className={`border px-3 py-1 rounded-full text-xs font-semibold ${cls}`}>
+            {label}: {count}
+          </span>
+        ))}
+      </div>
+
+      {/* Delta rows */}
+      <div className="space-y-2">
+        {diff.deltas.map(d => (
+          <div key={d.id} className="bg-white border border-slate-200 rounded-xl px-5 py-3 flex items-center gap-3">
+            <span className={`text-xs font-semibold px-2 py-0.5 rounded-full border ${STATUS_STYLES[d.status]}`}>
+              {STATUS_ICON[d.status]} {d.status}
+            </span>
+            <span className="flex-1 text-sm text-slate-700">{d.title}</span>
+            <span className="text-xs text-slate-400 font-mono">
+              {d.baselineCount ?? '—'} → {d.currentCount ?? '—'}
+              {d.delta !== null && d.delta !== 0 && (
+                <span className={d.delta < 0 ? 'text-green-600' : 'text-red-600'}>
+                  {' '}({d.delta > 0 ? '+' : ''}{d.delta})
+                </span>
+              )}
+            </span>
+          </div>
+        ))}
+      </div>
+
+      <button
+        onClick={() => { setCurrent(null); setDiff(null) }}
+        className="text-sm text-slate-400 hover:text-slate-600 underline"
+      >
+        Load a different export
+      </button>
+    </div>
+  )
+}
+
 // ─── Main Page ────────────────────────────────────────────────────────────────
 
 import { Suspense } from 'react'
@@ -510,6 +682,7 @@ function AssessApp() {
     { key: 'upload', label: '1. Upload', disabled: false },
     { key: 'findings', label: '2. Findings', disabled: !state },
     { key: 'waves', label: '3. Wave Plan', disabled: !state },
+    { key: 'compare', label: '4. Compare', disabled: !state },
   ]
 
   return (
@@ -564,6 +737,7 @@ function AssessApp() {
         {tab === 'upload' && <UploadTab onAssess={handleAssess} />}
         {tab === 'findings' && state && <FindingsTab state={state} />}
         {tab === 'waves' && state && <WaveBoard state={state} />}
+        {tab === 'compare' && state && <CompareTab baseline={state} />}
       </main>
     </div>
   )
